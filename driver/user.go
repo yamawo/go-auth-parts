@@ -11,7 +11,7 @@ import (
 	"auth-parts/adapter/gateway"
 	"auth-parts/adapter/presenter"
 	"auth-parts/usecase/interactor"
-	_ "github.com/go-sql-driver/mysql"
+	"github.com/go-sql-driver/mysql"
 )
 
 // server を立てる
